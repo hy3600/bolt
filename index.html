@@ -1,15 +1,148 @@
 <!DOCTYPE html>
+
+
 <html>
+
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- IEで常に標準モードで表示させる -->
+    <meta name="format-detection" content="telephone=no"><!-- 電話番号の自動リンク化を無効 -->
+    <meta name="description" content="This is my portfolio site."><!-- サイトの説明 -->
+    <meta name="keyword" content="bolt, bootstrap, portfolio"><!-- キーワード -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- レスポンシブ対応 -->
+    <!--  width=device-width(viewportの幅を指定、ビューポートの横幅はデバイスの描画域の横幅)
+    initial-scale(ズームの初期倍率) -->
+    <title>Bolt - Free Bootstrap 3 Theme</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/lib/all.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
 
+  <body>
+    <header class="header">
+      <div class="inner header-inner">
+        <i class="fas fa-bolt fa-3x header-icon-bolt"></i>
+        <div class="header-button">
+          <a href="#!" class="button header-button-contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="home">
+        <div class="inner home-inner">
+          <h1 class="font-raleway home-title">Bolt Theme</h1>
+          <p class="font-raleway home-subtitle">FREE BOOTSTRAP THEMSE</p> 
+        </div>
+      </div>
+
+      <section class="about">
+        <div class="inner about-inner">     
+          <div class="about-img">
+            <img src="./img/iphone.png" alt="iphone">
+          </div>
+          <div class="about-text">
+            <h2 class="font-raleway about-text-headline">WHAT WE CAN DO?</h2>
+            <p class="about-text-dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </section>
+
+      <article class="work">
+        <div class="inner work-inner">
+          <h2 class="font-raleway work-headline">OUR LATEST WORK</h2>
+          <div class="work-img">
+            <div class="work-img-item work-img-iphone">
+              <a href="#!">
+                <img src="./img/01.jpg" alt="iphone">
+              </a>
+            </div>
+            <div class="work-img-item work-img-lake">
+              <a href="#!">
+                <img src="./img/02.jpg" alt="lake">              
+              </a>
+            </div>
+            <div class="work-img-item work-img-gender">
+              <a href="#!">
+                <img src="./img/03.jpg" alt="gender">               
+              </a>
+            </div>
+            <div class="work-img-item work-img-block">
+              <a href="#!">
+                <img src="./img/04.jpg" alt="block">               
+              </a>
+            </div>
+            <div class="work-img-item work-img-earth">
+              <a href="#!">
+                <img src="./img/05.jpg" alt="earth">               
+              </a>
+            </div>
+            <div class="work-img-item work-img-robot">
+              <a href="#!">
+                <img src="./img/06.jpg" alt="robot">               
+              </a>
+            </div>
+          </div>
+
+          <div class="inner work-text">
+            <p class="work-text-dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            <div class="work-button">
+              <a href="#!" class="button work-button-email">Email Me!</a>
+            </div>
+          </div>
+        </div> 
+      </article>
+
+      <section class="skills">
+        <div class="inner skills-inner">
+          <h2 class="font-raleway skills-headline">OUR SKILLS</h2>
+          <div class="skills-box">
+            <figure class="skills-box-img">
+              <img src="./img/circle_01.png" alt="">
+              <figcaption class="skills-box-text">Javascript</figcaption>
+            </figure>
+            <figure class="skills-box-img">
+              <img src="./img/circle_02.png" alt="">
+              <figcaption class="skills-box-text">Bootstrap</figcaption>
+            </figure>
+            <figure class="skills-box-img">
+              <img src="./img/circle_03.png" alt="">
+              <figcaption class="skills-box-text">Wordpress</figcaption>
+            </figure>
+            <figure class="skills-box-img">
+              <img src="./img/circle_04.png" alt="">
+              <figcaption class="skills-box-text">Photoshop</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <nav id="contact">
+          <ul class="inner contact-inner contact-">
+            <li class="contact-icon fa-3x">
+              <a href="#!"><i class="fab fa-facebook-f contact-icon-item contact-icon-facebook"></i></a>
+            </li>
+            <li class="contact-icon fa-3x">
+              <a href="#!"><i class="fab fa-dribbble contact-icon-item contact-icon-dribbble"></i></a>
+            </li>
+            <li class="contact-icon fa-3x">
+              <a href="#!"><i class="fab fa-twitter contact-icon-item contact-icon-twitter"></i></a>
+            </li>
+            <li class="contact-icon fa-3x">
+              <a href="#!"><i class="fas fa-envelope contact-icon-item contact-icon-envelope"></i></a>
+            </li>
+          </ul>
+      </nav>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p class="footer-text">
+          Crafted with ❤︎ by BlackTie.co.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
