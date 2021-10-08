@@ -3,7 +3,7 @@
     font-weight: 300;
     width: 100%;
   }
-  
+
   .inner {
     margin: auto;
     text-align: center;
@@ -18,7 +18,7 @@
     height: 100%;
     vertical-align:top;
   }
-  
+
   .button {
     background-color: #74cfae;
     color: #fff;
@@ -106,7 +106,7 @@
   .about-text-dummy {
     font-size: 20px;
     line-height: 30px;
-    margin-top: 40px;
+    margin-top: 35px;
   }
 
   .work {
@@ -123,10 +123,6 @@
     font-size: 24px;
   }
 
-  .work-text {
-    margin-top: 90px;
-  }
-
   .work-img {
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +134,7 @@
     margin-left: 100px;
   }
 
-  .work-box-item:hover {
+  .work-img-item:hover {
     opacity: 1;
     transition: .3s;
   }
@@ -156,6 +152,7 @@
   .work-text {
     display: flex;
     justify-content: center;
+    margin-top: 90px;
   }
 
   .work-text-dummy {
@@ -165,7 +162,7 @@
   }
 
   .work-button-email {
-    box-sizing: border-box;
+    display: inline-block;
     margin-left: 90px;
     padding: 14px 20px;
   }
