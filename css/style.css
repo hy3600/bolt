@@ -22,7 +22,7 @@
     height: 100%;
     vertical-align:bottom;
   }
-  
+
   .button {
     background-color: #74cfae;
     color: #fff;
@@ -111,7 +111,7 @@
   }
 
   .work-inner {
-    padding: 60px 0  70px;
+    padding: 60px 0 70px;
   }
 
   .work-headline {
@@ -226,4 +226,105 @@
   .footer-text {
     color: #fff;
     text-align: right;
+  }
+
+  .humberger {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1199px) {
+
+    .inner {
+      width: 97%;
+    }
+
+    .about-inner,
+    .work-img-item,
+    .work-text,
+    .skills-box-img {
+      display: block;
+    }
+
+    .about-text {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .about {
+      padding-bottom: 25px;
+    }
+
+    .work-img-item li {
+      margin: 0px;
+    }
+
+    .work-img-item li:first-child {
+      margin-top: 40px;
+    }
+
+    .work-img-item li:nth-child(4n) {
+      margin-top: 80px;
+    }
+
+    .work-text-dummy {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .work-text {
+      margin-top: 80px;
+    }
+
+    .work-button-email {
+      margin: 40px 0 0;
+    }
+
+    .skills-box-img li {
+      margin: 88px auto 0;
+    }
+
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .header-button{
+      display: none;
+    }
+
+    .humberger {
+      display: inline-block;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-left: auto;
+      padding: 10px;
+    }
+
+    .humberger-line {
+      background-color: #ddd;
+      height: 2px;
+      margin-top: 7px;
+      width: 20px;
+    }
+
+    .humberger-line:first-child {
+      margin-top: 0;
+    }
+    
+    .home-inner {
+      padding: 160px 0 130px;
+    }
+
+    .home-title {
+      font-size: 80px;
+    }
+
+    .contact-inner {
+      display: block;
+      padding: 50px 0;
+    }
+
+    .contact-inner li {
+      width: 100%;
+    }
+    
   }
